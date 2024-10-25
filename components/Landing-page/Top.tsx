@@ -87,7 +87,7 @@ const Top = () => {
             transition={{ duration: 0.5, delay: 0.2 }}
             style={{ height: "calc(100% * 1.02)" }} // Increase height by 2%
           >
-            <p className="text-gray-400 text-sm">What's Changed</p>
+            <p className="text-gray-400 text-sm">Whats Changed</p>
             <div className="flex justify-center items-center">
               <h3 className="text-2xl font-bold">-2.1K Fixes</h3>
             </div>
