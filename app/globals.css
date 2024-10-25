@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --clr-bg: #ffffff;
+  --clr-text: rgb(0, 0, 0);
+  --clr-accent: rgb(255, 93, 60);
+  --h1Size: clamp(1.5rem, 4vw + 1rem, 3rem);
+}
+
+body {
+  background-color: var(--clr-bg);
+  color: var(--clr-text);
+}
+
+h1 {
+  font-size: var(--h1Size);
+  font-weight: 600;
+}
+
